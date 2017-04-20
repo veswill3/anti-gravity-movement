@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anti-gravity Movement Playground</title>
+    <script type="text/javascript" src="vector.js"></script>
+    <style type="text/css">
+        input { width: 50px; }
+        #controls { position: absolute; bottom: 4px; }
+    </style>
+</head>
+<body>
+
+<p>Tweak the parameters at the bottom to adjust how the red circle avoids obstacles (ENTER to submit). Click to create a new obstacle.</p>
+<canvas id="canvas"></canvas>
+<div id="controls">
+    forceCoeff: <input id="forceCoeff">
+    distExp: <input id="distExp">
+    distFalloffCoeff: <input id="distFalloffCoeff">
+    distFalloffExp: <input id="distFalloffExp">
+</div>
+
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
